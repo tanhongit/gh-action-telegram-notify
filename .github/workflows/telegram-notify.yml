@@ -9,13 +9,19 @@ on:
       - main
       - develop
   issues:
-    types: [opened, closed, reopened]
+    types: [opened, closed, reopened, edited]
+  issue_comment:
+    types: [created, edited, deleted]
   discussion:
-    types: [created, edited]
+    types: [created, edited, deleted]
   release:
-    types: [published]
+    types: [published, edited, deleted]
   pull_request_review_comment:
-    types: [created, edited]
+    types: [created, edited, deleted]
+  pull_request_review:
+    types: [submitted, edited, dismissed]
+  check_run:
+    types: [created, completed, requested_action, rerequested]
 jobs:
   build:
     runs-on: ubuntu-latest
