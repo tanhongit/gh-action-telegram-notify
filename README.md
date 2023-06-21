@@ -55,7 +55,7 @@ jobs:
 
 > Visit https://help.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions for more available environment variable.
 
-You can also check my [workflow](https://github.com/tanhongit/gh-action-telegram-notify/blob/main/.github/workflows/telegram-notify.yml) for reference.
+**_You can also check my [workflow](https://github.com/tanhongit/gh-action-telegram-notify/blob/main/.github/workflows/telegram-notify.yml) for reference._**
 
 ## 4. Push a commit to your repo
 
