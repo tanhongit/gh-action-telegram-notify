@@ -1,5 +1,13 @@
 name: tg-notify
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
 jobs:
   build:
     runs-on: ubuntu-latest
