@@ -16,6 +16,8 @@ Once all the details have been entered, you’ll receive the confirmation messag
 
 After that, open the link of your bot in the message and press start. (There should be no response) This is to get the unique chat id, which tells the telegram bot to notify only you.
 
+Go to https://api.telegram.org/bot<YourBOTToken>/getUpdates, replace <YourBOTToken> with the token you copied earlier. You should see a JSON response with a chat id. Copy the chat id.
+
 ## 2. Create Secret Variables
 
 Go to your repository **Settings > Secrets and variables** and add the following environment variables:
@@ -27,7 +29,7 @@ Go to your repository **Settings > Secrets and variables** and add the following
 
 ## 3. Create a workflow
 
-Create a `.github/workflows/telegram-notifi.yml` file in your GitHub repo and add the following code:
+Create a `.github/workflows/telegram-notify.yml` file in your GitHub repo and add the following code:
 
 ```yml
 name: Telegram Notification
