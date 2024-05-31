@@ -5,7 +5,7 @@ It allows you to stay informed about various events and activities related to yo
 
 ---
 
-**Professional related project:** [**_cslant/telegram-git-notifier_**](https://github.com/cslant/telegram-git-notifier.git)
+**Professional related project:** [**_cslant/laravel-telegram-git-notifier_**](https://github.com/cslant/laravel-telegram-git-notifier.git)
 
 # Information
 
